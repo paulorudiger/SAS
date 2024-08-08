@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SAS.Abstracoes
+﻿namespace SAS.Abstracoes
 {
     public class Arquivo
     {
-        public byte[] BytesArquivo { get; set; }
+        public byte[] BytesArquivo { get; set; }// Encapsulamento: os bytes do arquivo são armazenados em uma propriedade
     }
 }

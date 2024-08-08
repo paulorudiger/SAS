@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SAS.Abstracoes
+﻿namespace SAS.Abstracoes
 {
     public class Texto
     {
-        public string Mensagem { get; set; }
+        public string Mensagem { get; set; } // Encapsulamento: a mensagem é armazenada em uma propriedade
     }
 }
